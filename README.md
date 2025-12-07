@@ -11,7 +11,7 @@ It shows my self introduction in a clean design.
 1. Download the project.
 2. Open the file index.html in any web browser.
 
-# Task 1 
+# Task 2
 
 # 1. signup.html (Signup Page)
 
