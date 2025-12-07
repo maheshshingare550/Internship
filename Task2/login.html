@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .login-box {
+            width: 320px;
+            margin: 150px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 95%;
+            padding: 8px;
+            margin: 8px 0 15px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+        a{
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+            color: blue;
+        
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+
+        <form>
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" required>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password" required>
+
+            <label>User Type:</label>
+            <select required>
+                <option value="">Select User</option>
+                <option>Admin</option>
+                <option>student</option>
+                
+            </select>
+
+            <button type="submit">Login</button>
+             <p><u>Forget Password?</u></p>
+            <a href="signup.html">Signup</a>
+        </form>
+    </div>
+
+</body>
+</html>
