@@ -1,3 +1,4 @@
+# Task1
 # My Introduction Webpage
 
 This is a simple webpage created using HTML  
@@ -9,3 +10,55 @@ It shows my self introduction in a clean design.
 ## How to Open
 1. Download the project.
 2. Open the file index.html in any web browser.
+
+# Task 1 
+
+# 1. signup.html (Signup Page)
+
+# Purpose
+The signup page is used by new users to register and create a new account.
+# Features
+Page title shown as "Signup Page" on the browser tab
+Light gray background with Arial font
+A centered white signup box
+Curved corners and shadow for a professional card design
+# Input Fields
+The user must enter the following details:
+Full Name – Complete name of the user
+Email – Valid email address
+Mobile No – User’s phone number
+Password – To set an account password
+Confirm Password – To re-enter the password for verification
+User Type – Dropdown selection with:
+Admin
+Student
+All fields are mandatory and must be filled before submitting.
+# Buttons & Links
+Signup Button (Green) – Used to submit registration details
+Already have an account? – Message for existing users
+Login Link – Redirects users to the login page
+
+
+
+# login.html (Login Page)
+
+# Purpose
+The login page is used by existing users to enter their credentials and access the system.
+# Features
+Page title shown as "Login Page" on the browser tab
+Light gray background for a clean look
+Simple and readable Arial font
+A white login box placed at the center of the screen
+Rounded corners and shadow for a card-like design
+# Input Fields
+The user must enter the following details:
+Username – To enter their username
+Password – To enter their secret password (hidden for security)
+User Type – Dropdown selection with:
+Admin
+Student
+All fields are required and cannot be left empty.
+# Buttons & Links
+Login Button (Blue) – Used to submit login details
+Forget Password? – Message shown for users who forgot their password
+Signup Link – Redirects users to the signup page if they do not have an account
