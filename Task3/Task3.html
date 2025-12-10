@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+     <title>Dashboard Overview</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        /* ===== FEATURE CARDS SECTION ===== */
+        .cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;   /* ✅ This centers the cards */
+}
+
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .card p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .card button {
+            margin-top: 10px;
+            padding: 8px 15px;
+            border: none;
+            background: #515154;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background: #3730a3;
+        }
+
+        /* ===== TABLE SECTION ===== */
+        .table-container {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #515154;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        tr:hover {
+            background: #e0e7ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== DASHBOARD HEADING ===== -->
+    <h1 style="text-align:center;">Dashboard Overview</h1>
+
+    <!-- ===== FEATURE CARDS ===== -->
+    <div class="cards-container">
+
+        <div class="card">
+            <img src="users.png">
+            <h3>Users</h3>
+            <p>Manage all registered users.</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="report.png">
+            <h3>Reports</h3>
+            <p>View system performance reports.</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="analytics.png">
+            <h3>Analytics</h3>
+            <p>Track real-time analytics data.</p>
+            <button>View Details</button>
+        </div>
+
+    </div>
+
+    <!-- ===== TABLE HEADING ===== -->
+    <h2>User Records</h2>
+
+    <!-- ===== RECORDS TABLE ===== -->
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>01</td>
+                <td> Mahesh Shingare</td>
+                <td>mahesh@gmail.com</td>
+                <td>Admin</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>02</td>
+                <td>Siddhi Phase</td>
+                <td>siddhi@gmail.com</td>
+                <td>Team leader</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>03</td>
+                <td>Vaishnavi Chaudhari</td>
+                <td>vaishu@gmail.com</td>
+                <td>Manager</td>
+                <td>Inactive</td>
+            </tr>
+
+            <tr>
+                <td>04</td>
+                <td>Mayuri Gaikwad</td>
+                <td>mayuri@gmail.com</td>
+                <td>Employee</td>
+                <td>Active</td>
+            </tr>
+
+            <tr>
+                <td>05</td>
+                <td>Chaitanya Singare</td>
+                <td>chaitanya@gmail.com</td>
+                <td>Employee</td>
+                <td>Active</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
+
