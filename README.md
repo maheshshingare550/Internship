@@ -62,3 +62,48 @@ All fields are required and cannot be left empty.
 Login Button (Blue) – Used to submit login details
 Forget Password? – Message shown for users who forgot their password
 Signup Link – Redirects users to the signup page if they do not have an account
+
+
+# Task3
+
+# 1. Dashboard Cards Section
+
+This section displays three feature cards:
+# Users
+Shows a users icon
+Description: Manage all registered users
+Button: View Details
+# Reports
+Shows a reports icon
+Description: View system performance reports
+Button: View Details
+# Analytics
+Shows an analytics/graph icon
+Description: Track real-time analytics
+Button: View Details
+# Card Appearance
+White boxes with rounded corners
+Light shadow effect
+Cards grow slightly on hover
+All cards arranged in a row and centered
+Move to next line on smaller screens
+# 2. User Records Table
+Shows users with the following columns:
+ID
+Name
+Email
+Role
+Status
+# Table Appearance
+White rounded container
+Shadow around the table
+Header row with dark background and white text
+Alternate rows shaded (zebra effect)
+Highlight on hover
+Scrolls horizontally on small screens
+#Sample Data
+Mahesh Shingare – Admin – Active
+Siddhi Phase – Team Leader – Active
+Vaishnavi Chaudhari – Manager – Inactive
+Mayuri Gaikwad – Employee – Active
+Chaitanya Singare – Employee – Active
