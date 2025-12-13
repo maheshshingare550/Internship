@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Step 1 - Personal Info</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            width: 520px;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0px 8px 18px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #444;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 6px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            background: #f7f7f7;
+            border-radius: 10px;
+            font-size: 14px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #666;
+            background: #ffffff;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            text-align: center;
+            background: #555;
+            color: #ffffff;
+            border-radius: 10px;
+            font-size: 16px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Step 1: Personal Details</h2>
+
+    <form>
+        <label>First Name</label>
+        <input type="text" placeholder="Enter first name">
+
+        <label>Middle Name</label>
+        <input type="text" placeholder="Enter middle name">
+
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter last name">
+
+        <label>Phone Number</label>
+        <input type="number" placeholder="Enter phone number">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email address">
+
+        <label>Date of Birth</label>
+        <input type="date">
+
+        <label>Gender</label>
+        <select>
+            <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+
+        <h3>Guardian Details</h3>
+
+        <label>Guardian Full Name</label>
+        <input type="text" placeholder="Enter guardian name">
+
+        <label>Relation</label>
+        <select>
+            <option>Select Relation</option>
+            <option>Father</option>
+            <option>Mother</option>
+            <option>Guardian</option>
+            <option>Other</option>
+        </select>
+
+        <label>Guardian Phone</label>
+        <input type="number" placeholder="Enter guardian phone">
+
+        <label>Guardian Email</label>
+        <input type="email" placeholder="Enter guardian email">
+
+        <a href="step2.html" class="btn">Next →</a>
+    </form>
+</div>
+
+</body>
+</html>
