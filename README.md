@@ -107,3 +107,87 @@ Siddhi Phase – Team Leader – Active
 Vaishnavi Chaudhari – Manager – Inactive
 Mayuri Gaikwad – Employee – Active
 Chaitanya Singare – Employee – Active
+
+
+
+📌 Project Overview
+
+The Innovative IT Solutions project is a simple multi-page static website created using HTML and CSS.
+The main purpose of this project is to represent a basic IT company website that provides company details, services, and a contact option for users.
+This project demonstrates how multiple web pages can share a common layout, design, and styling.
+
+#  Project Objectives
+
+To design a professional-looking company website
+To understand multi-page website structure
+To practice HTML page linking and CSS styling
+To maintain consistent layout across all pages
+To implement basic responsive design
+
+# Project Structure
+The website consists of the following main pages:
+Home Page
+About Us Page
+Contact Us Page
+All pages share:
+Common header
+Navigation menu
+Footer section
+This ensures a consistent user experience throughout the website.
+ Website Pages Description
+# Home Page
+Displays the company name and tagline in a hero section
+Highlights main services offered:
+Web Development
+Software Solutions
+IT Support
+Uses service cards with clean design, shadows, and rounded corners
+# About Us Page
+Provides detailed information about the company using content sections:
+Who We Are – Introduction to the company
+Our Mission – Company goals and values
+Our Vision – Future plans and growth focus
+Our Location – Embedded Google Map for location
+# Contact Us Page
+Includes a contact form for user communication
+Collects:
+First Name
+Last Name
+Email
+Phone Number
+Message
+All fields are mandatory to ensure proper user input
+#  Header Section
+Appears on all pages
+Displays company name as logo
+Contains navigation links:
+Home
+About
+Contact
+Uses blue background with white text for a professional appearance
+# Footer Section
+Appears on every page
+Displays copyright information
+Provides a clean and professional finish
+# Styling and Design
+Clean and modern UI design
+Light background for better readability
+Consistent fonts, spacing, and colors
+Use of shadows and rounded corners for visual enhancement
+# Responsiveness
+Website adapts to different screen sizes
+Service cards stack vertically on smaller screens
+Mobile and tablet-friendly layout
+# Technologies Used
+HTML5 – Structure of the website
+CSS3 – Styling and layout
+# Conclusion
+This project demonstrates:
+Basic static website development
+Multi-page navigation
+Common layout usage
+Clean and responsive design
+Suitable for:
+College mini projects
+HTML & CSS practice
+Beginner-level IT company website
