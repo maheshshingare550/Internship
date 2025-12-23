@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    height: 520px;
+    display: flex;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+
+/* Left */
+.left-panel {
+    width: 40%;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 60px 40px;
+}
+
+.left-panel h1 {
+    font-size: 36px;
+}
+
+.left-panel p {
+    margin-top: 15px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Right */
+.right-panel {
+    width: 60%;
+    background: #fff;
+    padding: 40px;
+}
+
+.right-panel h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e3c72;
+}
+
+/* Form */
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+.field {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    padding: 12px 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+.field label {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: #777;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 12px;
+    color: #1e3c72;
+}
+
+.toggle {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #1e3c72, #000);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.success {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+.strength {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+    }
+    .left-panel,
+    .right-panel {
+        width: 100%;
+    }
+}

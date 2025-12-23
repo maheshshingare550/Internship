@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Left Panel -->
+    <div class="left-panel">
+        <h1>Welcome </h1>
+        <p>Create your account to get started</p>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+        <h2>Create Account</h2>
+
+        <form onsubmit="return validateForm()">
+
+            <div class="row">
+                <div class="field">
+                    <input type="text" id="fname">
+                    <label>First Name</label>
+                    <span class="error" id="fnameError"></span>
+                </div>
+
+                <div class="field">
+                    <input type="text" id="lname">
+                    <label>Last Name</label>
+                    <span class="error" id="lnameError"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="field">
+                    <input type="text" id="phone">
+                    <label>Phone</label>
+                    <span class="error" id="phoneError"></span>
+                </div>
+
+                <div class="field">
+                    <input type="email" id="email">
+                    <label>Email</label>
+                    <span class="error" id="emailError"></span>
+                </div>
+            </div>
+
+            <div class="field">
+                <input type="password" id="password" onkeyup="checkStrength()">
+                <label>Password</label>
+                <span class="toggle" onclick="togglePassword('password')"></span>
+                <div class="strength" id="strengthMsg"></div>
+                <span class="error" id="passwordError"></span>
+            </div>
+
+            <div class="field">
+                <input type="password" id="confirmPassword">
+                <label>Confirm Password</label>
+                <span class="toggle" onclick="togglePassword('confirmPassword')"></span>
+                <span class="error" id="confirmPasswordError"></span>
+            </div>
+
+            <div class="field">
+                <select id="userType">
+                    <option value="">Select User Type</option>
+                    <option>Student</option>
+                    <option>Admin</option>
+                </select>
+                <span class="error" id="userTypeError"></span>
+            </div>
+
+            <button type="submit">Register</button>
+            <div class="success" id="successMsg"></div>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
